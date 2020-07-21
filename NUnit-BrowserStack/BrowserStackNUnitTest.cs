@@ -22,7 +22,7 @@ namespace BrowserStack
       this.profile = profile;
       this.environment = environment;
     }
-    
+    /*
     [SetUp]
     public void Init()
     {
@@ -76,6 +76,7 @@ namespace BrowserStack
       {
         browserStackLocal.stop();
       }
+      */
     }
   }
-}
+
