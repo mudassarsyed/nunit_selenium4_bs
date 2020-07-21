@@ -42,7 +42,7 @@ namespace BrowserStack
             
 
             capabilities.AddAdditionalOption("bstack:options", browserstackOptions);
-
+            // AddAdditionalAppiumOption prefixes appium: 
             //capabilities.AddAdditionalAppiumOption("app", "bs://f096917b186b9a98eb4bce8d532cc23f22593171");
             capabilities.AddAdditionalOption("app", "bs://f096917b186b9a98eb4bce8d532cc23f22593171");
 
