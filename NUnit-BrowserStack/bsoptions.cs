@@ -12,7 +12,7 @@ namespace SingleTest
                 base.BrowserName = "";
                 base.BrowserVersion = "";
             }
-            private const string CapabilityPrefix = "appium:";
+            private const string CapabilityPrefix = "";
             private readonly Dictionary<string, object> _appiumOptions = new Dictionary<string, object>();
             /// <summary>
             /// Provides a means to add additional capabilities not yet added as type safe options
